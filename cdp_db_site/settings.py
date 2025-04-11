@@ -141,5 +141,3 @@ HOMEPAGE_DISC_COUNT = 9 # Set this to whatever you like! Must be an odd number o
 HOMEPAGE_BLANK_DISC_ASSET = "/static/no-image.png"
 HOMEPAGE_NO_DISC_ASSET= "/static/no-disc.png"
 # FOR USER: Move this asset to local staticfiles
-
-#TODO: Implement control URL, disc count

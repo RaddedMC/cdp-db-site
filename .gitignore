@@ -2,3 +2,4 @@ venv
 db.sqlite3
 */migrations
 media/images/*
+__pycache__
