@@ -26,7 +26,9 @@
             <h2 id="text-discnum">Disc #: {{ current_disc.position }}</h2>
         </div>
         <div id="button-panel">
-            <button>RETRIEVE</button>
+            <a href="http://homeassistant.local:8123/api/webhook/-Dp_9pD0fw2dov-siOsUtwiPi?disc={{ current_disc.position }}">
+                <button>RETRIEVE</button>
+            </a>
             <a href="/edit/{{ current_disc.position }}"><button>EDIT</button></a>
             <a href="/discs/remove/{{ current_disc.position }}"><button>DELETE</button></a>
         </div>

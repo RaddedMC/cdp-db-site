@@ -40,7 +40,9 @@
         </div>
         <div id="button-panel">
             {% if current_disc.title != "_" %}
-                <button>RETRIEVE</button>
+                <a href="http://homeassistant.local:8123/api/webhook/-Dp_9pD0fw2dov-siOsUtwiPi?disc={{ current_disc.position }}">
+                    <button>RETRIEVE</button>
+                </a>
             {% endif %}
             <a href="/edit/{{ current_disc.position }}"><button>{% if current_disc.title != "_" %}EDIT{% else %}ADD{% endif %}</button></a>
             {% if current_disc.title != "_" %}
